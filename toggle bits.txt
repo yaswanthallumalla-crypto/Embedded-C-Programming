@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int toggleFifthBit(int n) {
-    n^=(1<<5);
+    n^=(1<<5); // to toggle
     return n;
 }
 
